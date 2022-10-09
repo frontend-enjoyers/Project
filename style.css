@@ -19,12 +19,7 @@ html, body {
 	margin-left: 10%;
 	margin-right: 10%;
 	height: 898px;
-
-	/* white */
-
 	background: #fff;
-
-	/* Inside auto layout */
 
 	flex: none;
 	order: 3;
@@ -32,12 +27,6 @@ html, body {
 }
 
 #Frame17 {
-	/* Frame 17 */
-
-
-	/* Auto layout */
-
-	display: flex;
 	flex-direction: column;
 	align-items: center;
 	padding: 0px;
@@ -47,22 +36,12 @@ html, body {
 	width: 100%;
 	height: 220px;
 
-
-	/* Inside auto layout */
-
-	flex: none;
 	order: 0;
 	align-self: stretch;
 	flex-grow: 0;
 }
 
 #Frame16 {
-	/* Frame 16 */
-
-
-	/* Auto layout */
-
-	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
@@ -71,20 +50,12 @@ html, body {
 
 	width: 952px;
 	height: 164px;
-
-
-	/* Inside auto layout */
-
-	flex: none;
 	order: 0;
 	flex-grow: 0;
 }
 
 
 #textrhoncus {
-	/* Rhoncus, accumsan dictum */
-
-
 	width: 268px;
 	height: 24px;
 
@@ -98,14 +69,7 @@ html, body {
 	letter-spacing: 0.2px;
 	text-transform: capitalize;
 
-	/* systemGrey/600 */
-
 	color: #757575;
-
-
-	/* Inside auto layout */
-
-	flex: none;
 	order: 0;
 	flex-grow: 0;	
 }
@@ -130,11 +94,6 @@ html, body {
 	/* systemGrey/900 */
 
 	color: #212121;
-
-
-	/* Inside auto layout */
-
-	flex: none;
 	order: 1;
 	flex-grow: 0;
 }
@@ -159,22 +118,11 @@ html, body {
 	/* systemGrey/600 */
 
 	color: #757575;
-
-
-	/* Inside auto layout */
-
-	flex: none;
 	order: 1;
 	flex-grow: 0;
 }
 
 #Frame53 {
-	/* Frame 53 */
-
-
-	/* Auto layout */
-
-	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
 	padding: 0px;
@@ -182,22 +130,11 @@ html, body {
 
 	width: 100%;
 	height: 458px;
-
-
-	/* Inside auto layout */
-
-	flex: none;
 	order: 1;
 	flex-grow: 0;
 }
 
 .Frame51 {
-	/* Frame 51 */
-
-
-	/* Auto layout */
-
-	display: flex;
 	flex-direction: row;
 	align-items: flex-start;
 	padding: 0px;
@@ -205,22 +142,11 @@ html, body {
 
 	width: 100%;
 	height: 213px;
-
-
-	/* Inside auto layout */
-
-	flex: none;
 	order: 0;
 	flex-grow: 0;
 }
 
 .Frame48 {
-	/* Frame 48 */
-
-
-	/* Auto layout */
-
-	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
@@ -229,11 +155,6 @@ html, body {
 
 	width: 374px;
 	height: 213px;
-
-
-	/* Inside auto layout */
-
-	flex: none;
 	order: 0;
 	flex-grow: 0;
 }
@@ -249,21 +170,11 @@ html, body {
 
 	background: #EFF3FD;
 	border-radius: 50px;
-
-	/* Inside auto layout */
-
-	flex: none;
 	order: 0;
 	flex-grow: 0;
 }
 
 .Frame47 {
-	/* Frame 47 */
-
-
-	/* Auto layout */
-
-	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
@@ -272,11 +183,6 @@ html, body {
 
 	width: 334px;
 	height: 91px;
-
-
-	/* Inside auto layout */
-
-	flex: none;
 	order: 1;
 	flex-grow: 0;
 }
@@ -292,9 +198,6 @@ html, body {
 	font-weight: 600;
 	font-size: 22px;
 	line-height: 27px;
-	/* identical to box height */
-
-	display: flex;
 	align-items: center;
 	text-align: center;
 	letter-spacing: 0.2px;
@@ -303,11 +206,6 @@ html, body {
 	/* systemGrey/900 */
 
 	color: #212121;
-
-
-	/* Inside auto layout */
-
-	flex: none;
 	order: 0;
 	flex-grow: 0;
 }
@@ -331,11 +229,6 @@ html, body {
 	/* systemGrey/700 */
 
 	color: #616161;
-
-
-	/* Inside auto layout */
-
-	flex: none;
 	order: 1;
 	flex-grow: 0;
 }
