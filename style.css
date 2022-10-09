@@ -1,0 +1,351 @@
+html, body {
+	font-family : sans-serif;
+	font-size: 90%;
+	background-color: darkpurple;
+	text-align: center;
+	margin:0px;
+	padding : 0px;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+#Feature {
+	display: flex;
+	flex-direction: column;
+	gap: 60px;
+
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	height: 898px;
+
+	/* white */
+
+	background: #fff;
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 3;
+	flex-grow: 0;
+}
+
+#Frame17 {
+	/* Frame 17 */
+
+
+	/* Auto layout */
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0px;
+	gap: 32px;
+	margin-top: 80px;
+
+	width: 100%;
+	height: 220px;
+
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	align-self: stretch;
+	flex-grow: 0;
+}
+
+#Frame16 {
+	/* Frame 16 */
+
+
+	/* Auto layout */
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0px;
+	gap: 24px;
+
+	width: 952px;
+	height: 164px;
+
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+
+
+#textrhoncus {
+	/* Rhoncus, accumsan dictum */
+
+
+	width: 268px;
+	height: 24px;
+
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.2px;
+	text-transform: capitalize;
+
+	/* systemGrey/600 */
+
+	color: #757575;
+
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;	
+}
+
+#textetiam {
+	/* Etiam nulla lectus amet nunc molestie at vulputate. */
+
+
+	width: 952px;
+	height: 116px;
+
+	font-style: normal;
+	font-weight: 600;
+	font-size: 48px;
+	line-height: 58px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.2px;
+	text-transform: capitalize;
+
+	/* systemGrey/900 */
+
+	color: #212121;
+
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+}
+
+#textneque {
+	/* Neque, pulvinar vestibulum non aliquam. */
+
+
+	width: 398px;
+	height: 24px;
+
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.2px;
+	text-transform: capitalize;
+
+	/* systemGrey/600 */
+
+	color: #757575;
+
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+}
+
+#Frame53 {
+	/* Frame 53 */
+
+
+	/* Auto layout */
+
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 32px;
+
+	width: 100%;
+	height: 458px;
+
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+}
+
+.Frame51 {
+	/* Frame 51 */
+
+
+	/* Auto layout */
+
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 39px;
+
+	width: 100%;
+	height: 213px;
+
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+
+.Frame48 {
+	/* Frame 48 */
+
+
+	/* Auto layout */
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	gap: 22px;
+
+	width: 374px;
+	height: 213px;
+
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+
+.avatar {
+		/* Avatar */
+
+
+	width: 60px;
+	height: 60px;
+
+	/* light/primary/a8 */
+
+	background: #EFF3FD;
+	border-radius: 50px;
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+
+.Frame47 {
+	/* Frame 47 */
+
+
+	/* Auto layout */
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0px;
+	gap: 16px;
+
+	width: 334px;
+	height: 91px;
+
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+}
+
+.top {
+	/* Et, odio elementum */
+
+
+	width: 212px;
+	height: 27px;
+
+	font-style: normal;
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 27px;
+	/* identical to box height */
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.2px;
+	text-transform: capitalize;
+
+	/* systemGrey/900 */
+
+	color: #212121;
+
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+.bottom {
+	/* Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam. */
+
+
+	width: 334px;
+	height: 48px;
+
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	/* or 150% */
+
+	text-align: center;
+	letter-spacing: 0.2px;
+	text-transform: capitalize;
+
+	/* systemGrey/700 */
+
+	color: #616161;
+
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+}
+
+.icon {
+	/* Icon/Feather Icon */
+
+	display: inline-block;
+	width: 48px;
+	height: 48px;
+	margin-top: 16px;
+	}
+	
