@@ -1,0 +1,154 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+h1{
+	font-size: 48px;
+	color: #212121;
+}
+
+.wrapper{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.clientsSaysTop{
+	text-align: center;
+}
+
+.clientsSaysTop > p{
+
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0.20000000298023224px;
+	color: #757575;
+}
+
+.clientsSaysBody{
+	margin-top: 70px;
+	display: flex;
+}
+
+.clientsSaysBodyT{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 38px;
+	width: 510px;
+}
+
+.clientsSaysBodyText{
+	font-size: 32px;
+	font-weight: 500;
+	line-height: 48px;
+	letter-spacing: 0.20000000298023224px;
+	text-align: left;
+	margin-bottom: 32px;
+	color: #212121;
+}
+
+.clientsSaysBodyAuthor{
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 28px;
+	letter-spacing: 0.20000000298023224px;
+	color: #757575;
+}
+
+.clientsSaysBodyAuthor > span{
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 28px;
+	letter-spacing: 0.20000000298023224px;
+	color: #757575;
+}
+
+.clientsSays{
+	margin-bottom: 160px;
+}
+
+.FAQ{
+	display: flex;
+}
+
+.FAQBody{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 588px;
+	margin-right: 70px;
+}
+
+.FAQBody > h1 {
+	margin-bottom: 16px;
+}
+
+.FAQBodyText{
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 28px;
+	letter-spacing: 0.20000000298023224px;
+	text-align: left;
+	color: #757575;
+}
+
+.FAQ-accordion{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 15px;
+	gap: 10px;
+	width: 542px;
+	height: 48px;
+	background: #FFFFFF;
+	box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.15);
+}
+
+.FAQ-accordion-items summary{
+	cursor: pointer;
+	display: flex;
+	justify-content: space-between;
+	font-weight: 550;
+	font-size: 20px;
+	line-height: 28px;
+	width: 542px;
+}
+
+.FAQ-accordion-content{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #757575;
+}
+
+.FAQ-accordion-items summary::marker{
+	font-size: 0;
+}
+
+.FAQ-marker{
+	margin-right: 24px;
+}
+
+.FAQImg2{
+	position: absolute;
+	visibility:hidden;
+}
+
+.FAQ-accordion-items[open] .FAQImg1{
+	visibility: hidden;
+	position: absolute;
+}
+
+.FAQ-accordion-items[open] .FAQImg2{
+	visibility: visible;
+	position: relative;
+}
+
